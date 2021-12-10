@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def to_home_page():  # put application's code here
+def home_function():
     return redirect('/home')
 
 @app.route('/home')
